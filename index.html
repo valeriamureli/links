@@ -68,36 +68,44 @@
 		}
 
 		@media screen and (max-width: 800px) {
-			.app, .app img {
+			.app {
 				width: 400px;
 				height: 713px;
+				overflow: hidden;
+			}
+
+			.app img {
+				width: 400px;
+				height: 713px;
+				transform: scale(1.3);
+				transform-origin: 50% 50%;
 			}
 
 			.email {
 				position: absolute;
 				z-index: 1;
-				width: 200px;
+				width: 240px;
 				height: 50px;
-				top: 480px;
-				left: 70px;
+				top: 520px;
+				left: 40px;
 			}
 
 			.tiktok {
 				position: absolute;
 				z-index: 1;
-				width: 150px;
+				width: 191px;
 				height: 35px;
-				top: 196px;
-				left: 85px;
+				top: 154px;
+				left: 50px;
 			}
 
 			.youtube {
 				position: absolute;
 				z-index: 1;
-				width: 140px;
+				width: 160px;
 				height: 35px;
-				top: 235px;
-				left: 85px;
+				top: 207px;
+				left: 58px;
 			}
 
 			.instagram {
@@ -105,8 +113,8 @@
 				z-index: 1;
 				width: 140px;
 				height: 35px;
-				top: 278px;
-				left: 85px;
+				top: 260px;
+				left: 60px;
 			}
 		}
 	</style>
